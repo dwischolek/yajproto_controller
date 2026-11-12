@@ -1,0 +1,6 @@
+﻿References,Quantity,Value,Footprint,Notes
+A1,1,Arduino Nano v3.x / ATmega328P / 5V 16MHz,Module:Arduino_Nano,Complete module including USB serial and onboard support circuits
+SW1-SW25,25,Normally open momentary pushbutton,,Select physical controls before assigning footprints
+D1-D25,25,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,Cathode stripe toward COL net
+RV1-RV2,2,10k linear potentiometer,,Pin 1 +5V; pin 2 wiper; pin 3 GND; verify chosen part pinout
+C1-C2,2,100nF ceramic >=10V,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Wiper to GND; place near A1
