@@ -1,5 +1,7 @@
 # Controller Prototype
 
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+
 Arduino firmware for a controller with **25 buttons and two analog inputs**. It scans a 5 × 5 button matrix, debounces button changes, reads two potentiometers or joystick axes, and sends their state to a computer over USB serial.
 
 The hardware reference uses a classic **Arduino Nano v3.x with an ATmega328P, running at 5 V / 16 MHz**. The firmware sends a binary serial protocol; using it as a game controller requires host software that understands that protocol. It does not appear as a native USB HID gamepad.
@@ -83,6 +85,12 @@ A receiver should split the stream at the zero delimiters, decode the framing, a
 This design was inspired, among other sources, by Bald Engineer's [Arduino Keyboard Matrix Tutorial](https://www.baldengineer.com/arduino-keyboard-matrix-tutorial.html). Thanks for sharing the ideas and explanations behind keyboard matrix scanning.
 
 The hardware reference also uses KiCad Community symbols; their attribution and license are included in [hardware/SYMBOLS-LICENSE.txt](hardware/SYMBOLS-LICENSE.txt).
+
+## License
+
+The firmware and utility scripts are licensed under **MPL-2.0**, the hardware design is dedicated to the public domain under **CC0 1.0 Universal**, and the documentation is licensed under **CC BY-SA 4.0**. The bundled and embedded KiCad Community symbols retain **CC BY-SA 4.0 with the KiCad electronic-design exception**.
+
+See [LICENSE.md](LICENSE.md) for the exact scope, third-party exceptions, and links to the full license texts. These licenses permit commercial use subject to their terms.
 
 ## Reporting issues and contributing
 

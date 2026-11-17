@@ -1,5 +1,7 @@
 # Controller prototype schematic
 
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+
 Open [controller_prototype.kicad_pro](controller_prototype.kicad_pro) in **KiCad 7 or newer**, then open its schematic. [controller_prototype.pdf](controller_prototype.pdf) is a printable A3 preview. The project includes a local symbol library and an embedded symbol cache; no third-party library installation is needed. [bom.csv](bom.csv) lists the 55 physical components.
 
 This is a complete **module-based reference circuit derived from the firmware**, rather than a reconstruction of an existing device. The code determines the signals and scan behavior, but cannot identify the original board, controls, power source, or mechanical parts. Those choices are explicit below. Firmware files are unchanged.
@@ -92,3 +94,11 @@ kicad-cli sch erc --severity-all --exit-code-violations \
 For the Flatpak installation, replace `kicad-cli` in these commands with `flatpak run --command=kicad-cli org.kicad.KiCad`.
 
 KiCad Community symbols are redistributed in `Controller.kicad_sym` under CC BY-SA 4.0 with the KiCad electronic-design exception; see [SYMBOLS-LICENSE.txt](SYMBOLS-LICENSE.txt).
+
+## License
+
+The project authors' contributions to the schematic, KiCad project, symbol-library table, bill of materials, and schematic PDF are dedicated to the public domain under **CC0 1.0 Universal**, to the extent they hold copyright and related rights in them. You may copy, modify, distribute, and use those contributions, including commercially, without attribution or a requirement to share changes. This does not assert that the circuit itself is copyrightable. The hardware design is provided without warranty; see [the full CC0 text](../LICENSES/CC0-1.0.txt), particularly section 4.
+
+This guide and the electrical rules report are licensed under **CC BY-SA 4.0**. The validation script is licensed under **MPL-2.0**. The bundled symbol library and symbols embedded in the schematic retain their upstream terms in [SYMBOLS-LICENSE.txt](SYMBOLS-LICENSE.txt).
+
+See [the project license map](../LICENSE.md) for the exact scope and all license texts.

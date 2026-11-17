@@ -1,7 +1,7 @@
 (kicad_sch (version 20230121) (generator eeschema)
   (uuid "cc927c26-03ce-4310-af33-cef69c7733fe")
   (paper "A3")
-  (title_block (title "Controller prototype - firmware-derived reference schematic") (date "2026-11-10") (rev "1.0") (company "controller_prototype") (comment 1 "5 V ATmega328P Nano / USB powered / 25 digital + 2 analog") (comment 2 "Board and controls are implementation assumptions; see hardware/README.md"))
+  (title_block (title "Controller prototype - firmware-derived reference schematic") (date "2026-11-10") (rev "1.0") (company "controller_prototype") (comment 1 "5 V ATmega328P Nano / USB powered / 25 digital + 2 analog") (comment 2 "Board and controls are implementation assumptions; see hardware/README.md") (comment 3 "Design: CC0-1.0; provided without warranty; see LICENSES/CC0-1.0.txt") (comment 4 "KiCad symbols: CC BY-SA 4.0 with electronic-design exception; see hardware/SYMBOLS-LICENSE.txt"))
   (lib_symbols (symbol "Controller:Arduino_Nano_v3.x"
       (in_bom yes)
       (on_board yes)
